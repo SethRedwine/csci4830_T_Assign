@@ -48,7 +48,11 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 60px;
+            }
+
+            .heading {
+                font-size: 24px;
             }
 
             .links > a {
@@ -80,6 +84,9 @@
             @endif
 
             <div class="content">
+                <div class="heading">
+                    Hello World!
+                </div>
                 <div class="title m-b-md">
                     Welcome to Seth's Server Homeslice
                 </div>
