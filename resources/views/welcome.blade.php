@@ -55,7 +55,7 @@
                 font-size: 24px;
             }
 
-            .links > a {
+            .links > a > span {
                 color: #636b6f;
                 padding: 0 25px;
                 font-size: 12px;
