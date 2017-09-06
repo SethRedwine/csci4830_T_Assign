@@ -92,7 +92,7 @@
                 </div>
 
                 <div class="links">
-                    <span class="heading"> Info on the Framework </span>
+                    <span> Info on the Framework: </span>
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
