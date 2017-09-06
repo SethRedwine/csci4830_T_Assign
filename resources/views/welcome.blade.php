@@ -102,32 +102,31 @@
             </div>
         </div>
         <div class="container">
-            <h2>Table</h2>
-                <p style="text-align: center">Here's a table that will eventually be hooked up to a database:</p>                                      
-                <div class="table-responsive">          
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Firstname</th>
-                                <th>Lastname</th>
-                                <th>Age</th>
-                                <th>City</th>
-                                <th>Country</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Anna</td>
-                                <td>Pitt</td>
-                                <td>35</td>
-                                <td>New York</td>
-                                <td>USA</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+            <h2 style="text-align: center">Table</h2>
+            <p style="text-align: center">Here's a table that will eventually be hooked up to a database:</p>                                      
+            <div class="table-responsive">          
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Age</th>
+                            <th>City</th>
+                            <th>Country</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Anna</td>
+                            <td>Pitt</td>
+                            <td>35</td>
+                            <td>New York</td>
+                            <td>USA</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </body>
