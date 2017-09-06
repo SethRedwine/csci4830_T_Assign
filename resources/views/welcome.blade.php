@@ -88,10 +88,11 @@
                     Hello World!
                 </div>
                 <div class="title m-b-md">
-                    Welcome to Seth's Server Homeslice
+                    Welcome to Seth's Server
                 </div>
 
                 <div class="links">
+                    <span class="heading"> Info on the Framework </span>
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
@@ -102,7 +103,7 @@
         </div>
         <div class="container">
             <h2>Table</h2>
-                <p>The .table-responsive class creates a responsive table which will scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, there is no difference:</p>                                                                                      
+                <p>Here's a table that will eventually be hooked up to a database:</p>                                                                                      
                 <div class="table-responsive">          
                     <table class="table">
                         <thead>
