@@ -103,7 +103,9 @@
         </div>
         <div class="container">
             <h2>Table</h2>
-                <p>Here's a table that will eventually be hooked up to a database:</p>                                                                                      
+                <div class="center">
+                    <p>Here's a table that will eventually be hooked up to a database:</p>
+                </div>                                        
                 <div class="table-responsive">          
                     <table class="table">
                         <thead>
