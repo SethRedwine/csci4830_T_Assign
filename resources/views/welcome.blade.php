@@ -143,7 +143,7 @@
                     <tbody>
                         @foreach ($playlists as $playlist)
                         <tr>
-                            <td>{{$playlist->$id}}</td>
+                            <td>{{$playlist->id}}</td>
                             <td>{{$playlist->playlistName}}</td>
                             <td>{{$playlist->song0}}</td>
                             <td>{{$playlist->artist0}}</td>
