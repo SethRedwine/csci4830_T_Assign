@@ -109,16 +109,33 @@
                     <thead>
                         <tr>
                             <th>#</th>
-                            <th>Firstname</th>
-                            <th>Lastname</th>
-                            <th>Age</th>
-                            <th>City</th>
-                            <th>Country</th>
+                            <th>Playlist Name</th>
+                            <th>Song</th>
+                            <th>Artist</th>
+                            <th>Song</th>
+                            <th>Artist</th>
+                            <th>Song</th>
+                            <th>Artist</th>
+                            <th>Song</th>
+                            <th>Artist</th>
+                            <th>Song</th>
+                            <th>Artist</th>
+                            <th>Song</th>
+                            <th>Artist</th>
+                            <th>Song</th>
+                            <th>Artist</th>
+                            <th>Song</th>
+                            <th>Artist</th>
+                            <th>Song</th>
+                            <th>Artist</th>
+                            <th>Song</th>
+                            <th>Artist</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1</td>
+                            @foreach ($playlists as $playlist)
+                            <td>{{$playlist->playlistName}}</td>
                             <td>Anna</td>
                             <td>Pitt</td>
                             <td>35</td>

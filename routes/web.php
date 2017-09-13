@@ -11,6 +11,11 @@
 |
 */
 
+use Illuminate\Support\Facades\DB;
+
 Route::get('/', function () {
-    return view('welcome');
+    $playlists = DB::select('select * from playlists');
+    return view('welcome', $playlists);
 });
+
+
