@@ -136,11 +136,10 @@
                         @foreach ($playlists as $playlist)
                         <tr>
                             <td>{{$playlist->playlistName}}</td>
-                            <td>Anna</td>
-                            <td>Pitt</td>
-                            <td>35</td>
-                            <td>New York</td>
-                            <td>USA</td>
+                            <td>{{$playlist->song0}}</td>
+                            <td>{{$playlist->artist0}}</td>
+                            <td>{{$playlist->song1}}</td>
+                            <td>{{$playlist->artist1}}</td>
                         </tr>
                         @endforeach
                     </tbody>

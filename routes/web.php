@@ -14,8 +14,8 @@
 use Illuminate\Support\Facades\DB;
 
 Route::get('/', function () {
-    $playlists = DB::table('playlists')->get(); 
-    $x->viewData['playlists'] = $playlists; 
+    $playlists = DB::table('playlists/playlists')->get(); 
+    $x->viewData['playlists/playlists'] = $playlists; 
     return view('welcome', $x->$playlists); 
 }); 
 
