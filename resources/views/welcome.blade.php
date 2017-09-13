@@ -133,8 +133,8 @@
                         </tr>
                     </thead>
                     <tbody>
+                        @foreach ($playlists as $playlist)
                         <tr>
-                            @foreach ($playlists as $playlist)
                             <td>{{$playlist->playlistName}}</td>
                             <td>Anna</td>
                             <td>Pitt</td>
@@ -142,6 +142,7 @@
                             <td>New York</td>
                             <td>USA</td>
                         </tr>
+                        @endforeach
                     </tbody>
                 </table>
             </div>
