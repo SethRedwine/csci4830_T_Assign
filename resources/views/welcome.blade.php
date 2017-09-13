@@ -102,6 +102,14 @@
             </div>
         </div>
         <div class="container">
+            <form method="POST" action="/addPlaylist">
+                {{csrf_field()}}
+                <input type="text" class="form-control" id="playlistName" placeholder="Playlist Name" name="playlistName" required/>
+                <input type="text" class="form-control" id="song0" placeholder="Song Name" name="song0" required/>
+                <input type="text" class="form-control" id="artist0" placeholder="SoArtistng Name" name="artist0" required/>
+            </form>
+        </div>
+        <div class="container">
             <h2 style="text-align: center">Table</h2>
             <p style="text-align: center">Here's a table that will eventually be hooked up to a database:</p>                                      
             <div class="table-responsive">          
@@ -135,11 +143,28 @@
                     <tbody>
                         @foreach ($playlists as $playlist)
                         <tr>
+                            <td>{{$playlist->$id}}</td>
                             <td>{{$playlist->playlistName}}</td>
                             <td>{{$playlist->song0}}</td>
                             <td>{{$playlist->artist0}}</td>
                             <td>{{$playlist->song1}}</td>
                             <td>{{$playlist->artist1}}</td>
+                            <td>{{$playlist->song2}}</td>
+                            <td>{{$playlist->artist2}}</td>
+                            <td>{{$playlist->song3}}</td>
+                            <td>{{$playlist->artist3}}</td>
+                            <td>{{$playlist->song4}}</td>
+                            <td>{{$playlist->artist4}}</td>
+                            <td>{{$playlist->song5}}</td>
+                            <td>{{$playlist->artist5}}</td>
+                            <td>{{$playlist->song6}}</td>
+                            <td>{{$playlist->artist6}}</td>
+                            <td>{{$playlist->song7}}</td>
+                            <td>{{$playlist->artist7}}</td>
+                            <td>{{$playlist->song8}}</td>
+                            <td>{{$playlist->artist8}}</td>
+                            <td>{{$playlist->song9}}</td>
+                            <td>{{$playlist->artist9}}</td>
                         </tr>
                         @endforeach
                     </tbody>

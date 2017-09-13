@@ -20,5 +20,16 @@ Route::get('/', function () {
 }); 
 
 
+Route::post('/addPlaylist', function(Request $request) {
+    $playlistName = $request->input('playlistName');
+    $song0 = $request->('song0');
+     DB::insert('insert into playlists (playlistName, song0, artist0, ....) values (?, ?, ?, ...)', [$playlistName, $song0, ... ]);
 
+     return redirect('/');
+});
 
+Route::get('/deletePlaylist/{id}', function($id) {
+    
+
+    return redirect('/');
+});
