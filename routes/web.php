@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\DB;
 
 Route::get('/', function () {
     $playlists = DB::select('select * from playlists');
-    return view('welcome', $playlists);
+    return view('welcome')->with($playlists);
 });
 
 
