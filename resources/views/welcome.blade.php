@@ -99,27 +99,27 @@
         <div class="container">
             <form method="POST" action="/public">
                 {{csrf_field()}}
-                <input type="text" class="form-control" id="playlistName" placeholder="Playlist Name" name="playlistName" required/>
-                <input type="text" class="form-control" id="song0" placeholder="Song Name" name="song0" required/>
-                <input type="text" class="form-control" id="artist0" placeholder="Artist Name" name="artist0" required/>
-                <input type="text" class="form-control" id="song1" placeholder="Song Name" name="song1" required/>
-                <input type="text" class="form-control" id="artist1" placeholder="Artist Name" name="artist1" required/>
-                <input type="text" class="form-control" id="song2" placeholder="Song Name" name="song2" required/>
-                <input type="text" class="form-control" id="artist2" placeholder="Artist Name" name="artist2" required/>
-                <input type="text" class="form-control" id="song3" placeholder="Song Name" name="song3" required/>
-                <input type="text" class="form-control" id="artist3" placeholder="Artist Name" name="artist3" required/>
-                <input type="text" class="form-control" id="song4" placeholder="Song Name" name="song4" required/>
-                <input type="text" class="form-control" id="artist4" placeholder="Artist Name" name="artist4" required/>
-                <input type="text" class="form-control" id="song5" placeholder="Song Name" name="song5" required/>
-                <input type="text" class="form-control" id="artist5" placeholder="Artist Name" name="artist5" required/>
-                <input type="text" class="form-control" id="song6" placeholder="Song Name" name="song6" required/>
-                <input type="text" class="form-control" id="artist6" placeholder="Artist Name" name="artist6" required/>
-                <input type="text" class="form-control" id="song7" placeholder="Song Name" name="song7" required/>
-                <input type="text" class="form-control" id="artist7" placeholder="Artist Name" name="artist7" required/>
-                <input type="text" class="form-control" id="song8" placeholder="Song Name" name="song8" required/>
-                <input type="text" class="form-control" id="artist8" placeholder="Artist Name" name="artist8" required/>
-                <input type="text" class="form-control" id="song9" placeholder="Song Name" name="song9" required/>
-                <input type="text" class="form-control" id="artist9" placeholder="Artist Name" name="artist9" required/>
+                <input type="text" id="playlistName" placeholder="Playlist Name" name="playlistName" required/>
+                <input type="text" id="song0" placeholder="Song Name" name="song0" required/>
+                <input type="text" id="artist0" placeholder="Artist Name" name="artist0" required/>
+                <input type="text" id="song1" placeholder="Song Name" name="song1" required/>
+                <input type="text" id="artist1" placeholder="Artist Name" name="artist1" required/>
+                <input type="text" id="song2" placeholder="Song Name" name="song2" required/>
+                <input type="text" id="artist2" placeholder="Artist Name" name="artist2" required/>
+                <input type="text" id="song3" placeholder="Song Name" name="song3" required/>
+                <input type="text" id="artist3" placeholder="Artist Name" name="artist3" required/>
+                <input type="text" id="song4" placeholder="Song Name" name="song4" required/>
+                <input type="text" id="artist4" placeholder="Artist Name" name="artist4" required/>
+                <input type="text" id="song5" placeholder="Song Name" name="song5" required/>
+                <input type="text" id="artist5" placeholder="Artist Name" name="artist5" required/>
+                <input type="text" id="song6" placeholder="Song Name" name="song6" required/>
+                <input type="text" id="artist6" placeholder="Artist Name" name="artist6" required/>
+                <input type="text" id="song7" placeholder="Song Name" name="song7" required/>
+                <input type="text" id="artist7" placeholder="Artist Name" name="artist7" required/>
+                <input type="text" id="song8" placeholder="Song Name" name="song8" required/>
+                <input type="text" id="artist8" placeholder="Artist Name" name="artist8" required/>
+                <input type="text" id="song9" placeholder="Song Name" name="song9" required/>
+                <input type="text" id="artist9" placeholder="Artist Name" name="artist9" required/>
                 <input type="submit" />
             </form>
         </div>
