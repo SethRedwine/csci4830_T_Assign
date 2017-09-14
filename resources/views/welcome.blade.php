@@ -97,7 +97,7 @@
             </div>
         </div>
         <div class="container">
-            <form method="POST" action="/">
+            <form method="POST" action="/public">
                 {{csrf_field()}}
                 <input type="text" class="form-control" id="playlistName" placeholder="Playlist Name" name="playlistName" required/>
                 <input type="text" class="form-control" id="song0" placeholder="Song Name" name="song0" required/>
