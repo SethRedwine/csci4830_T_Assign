@@ -19,7 +19,7 @@ Route::get('/', function () {
     return view('welcome', $this->viewData); 
 }); 
 
-Route::post('/public/add', function(Request $request) {
+Route::post('/public/', function(Request $request) {
     echo 'hit it';
     $playlistName=$request->input('playlistName');
     $song0=$request->input('song0');
