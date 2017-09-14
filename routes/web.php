@@ -21,6 +21,7 @@ Route::get('/', function () {
 
 
 Route::post('/public', function(Request $request) {
+    dd(request()->all());
     $playlistName=$request->input('playlistName');
     $song0=$request->input('song0');
     $artist0=$request->input('artist0');
