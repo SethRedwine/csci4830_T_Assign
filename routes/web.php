@@ -47,6 +47,7 @@ Route::post('/public', function(Request $request) {
 
     DB::table('playlists')->insert([
         [
+            'id'=>1,
             'playlistName'=>$playlistName,
             'song0'=>$song0,
             'artist0'=>$artist0,
