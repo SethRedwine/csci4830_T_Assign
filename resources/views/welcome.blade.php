@@ -120,7 +120,7 @@
                 <input type="text" class="form-control" id="artist8" placeholder="Artist Name" name="artist8" required/>
                 <input type="text" class="form-control" id="song9" placeholder="Song Name" name="song9" required/>
                 <input type="text" class="form-control" id="artist9" placeholder="Artist Name" name="artist9" required/>
-                <input type="submit"> Submit </input>
+                <input type="submit" />
             </form>
         </div>
         <div class="container">
