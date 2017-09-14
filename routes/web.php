@@ -19,7 +19,9 @@ Route::get('/', function () {
     return view('welcome', $this->viewData); 
 }); 
 
-Route::post('/public', function(Request $request) {
+Route::post('/public/add', [
+    'as' => 'playlist.add',
+    'uses' => function(Request $request) {
     echo 'hit it';
     $playlistName=$request->input('playlistName');
     $song0=$request->input('song0');
@@ -72,7 +74,7 @@ Route::post('/public', function(Request $request) {
     // ]);
 
     return redirect('/');
-});
+}]);
 
 Route::get('/public/{id}', function($id) {
 
