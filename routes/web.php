@@ -45,6 +45,7 @@ Route::post('/public', function(Request $request) {
     
     // DB::insert('insert into playlists (playlistName, song0, artist0, song1, artist1, song2, artist2, song3, artist3, song4, artist4, song5, artist5, song6, artist6, song7, artist7, song8, artist8, song9, artist9) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [$playlistName, $song0, $artist0, $song1, $artist1, $song2, $artist2, $song3, $artist3, $song4, $artist4, $song5, $artist5, $song6, $artist6, $song7, $artist7, $song8, $artist8, $song9, $artist9]);
 
+    dd([$playlistName, $song0, $artist0, $song1, $artist1, $song2, $artist2, $song3, $artist3, $song4, $artist4, $song5, $artist5, $song6, $artist6, $song7, $artist7, $song8, $artist8, $song9, $artist9]);
     DB::table('playlists')->insert([
         [
             'id'=>1,
