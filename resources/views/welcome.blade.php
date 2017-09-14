@@ -98,7 +98,7 @@
         </div>
         <div class="container">
             <form method="POST" action="/public">
-                {{ csrf_field() }}
+                <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
                 <div class="row">
                     <input type="text" id="playlistName" placeholder="Playlist Name" name="playlistName" required/>
                 </div>
