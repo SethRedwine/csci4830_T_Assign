@@ -20,7 +20,7 @@ Route::get('/', function () {
 }); 
 
 
-Route::post('/addPlaylist', function(Request $request) {
+Route::post('/', function(Request $request) {
     $playlistName = $request->input('playlistName');
     $song0 = $request->input('song0');
     $artist0 = $request->input('artist0');
