@@ -99,7 +99,9 @@
         <div class="container">
             <form method="POST" action="/public">
                 {{csrf_field()}}
-                <input type="text" id="playlistName" placeholder="Playlist Name" name="playlistName" required/>
+                <div class="row">
+                    <input type="text" id="playlistName" placeholder="Playlist Name" name="playlistName" required/>
+                </div>
                 <div class="row">
                     <input type="text" id="song0" placeholder="Song Name" name="song0" required/>
                     <input type="text" id="artist0" placeholder="Artist Name" name="artist0" required/>
@@ -146,7 +148,7 @@
             </form>
         </div>
         <div class="container">
-            <h2 style="text-align: center">Table</h2>
+            <h2 style="text-align: center">Playlist Table</h2>
             <p style="text-align: center">Here's a table that's hooked up to a database:</p>                                      
             <div class="table-responsive">          
                 <table class="table">
