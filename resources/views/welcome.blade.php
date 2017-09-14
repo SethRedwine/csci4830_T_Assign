@@ -142,6 +142,7 @@
                 <input type="text" id="song9" placeholder="Song Name" name="song9" required/>
                 <input type="text" id="artist9" placeholder="Artist Name" name="artist9" required/>
                 </div>
+                <br />
                 <div class="row">
                     <input type="submit" />
                 </div>
