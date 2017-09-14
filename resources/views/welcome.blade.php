@@ -84,20 +84,15 @@
             @endif
 
             <div class="content">
-                <div class="heading">
-                    Hello World!
-                </div>
                 <div class="title m-b-md">
                     Welcome to Seth's Server
                 </div>
-
                 <div class="links">
-                    <span> Info on the Framework: </span>
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://github.com/SethRedwine/csci4830_T_Assign">GitHub</a>
+                </div>
+                <br />
+                <div class="heading">
+                    Scroll down for the table
                 </div>
             </div>
         </div>
@@ -106,12 +101,31 @@
                 {{csrf_field()}}
                 <input type="text" class="form-control" id="playlistName" placeholder="Playlist Name" name="playlistName" required/>
                 <input type="text" class="form-control" id="song0" placeholder="Song Name" name="song0" required/>
-                <input type="text" class="form-control" id="artist0" placeholder="SoArtistng Name" name="artist0" required/>
+                <input type="text" class="form-control" id="artist0" placeholder="Artist Name" name="artist0" required/>
+                <input type="text" class="form-control" id="song1" placeholder="Song Name" name="song1" required/>
+                <input type="text" class="form-control" id="artist1" placeholder="Artist Name" name="artist1" required/>
+                <input type="text" class="form-control" id="song2" placeholder="Song Name" name="song2" required/>
+                <input type="text" class="form-control" id="artist2" placeholder="Artist Name" name="artist2" required/>
+                <input type="text" class="form-control" id="song3" placeholder="Song Name" name="song3" required/>
+                <input type="text" class="form-control" id="artist3" placeholder="Artist Name" name="artist3" required/>
+                <input type="text" class="form-control" id="song4" placeholder="Song Name" name="song4" required/>
+                <input type="text" class="form-control" id="artist4" placeholder="Artist Name" name="artist4" required/>
+                <input type="text" class="form-control" id="song5" placeholder="Song Name" name="song5" required/>
+                <input type="text" class="form-control" id="artist5" placeholder="Artist Name" name="artist5" required/>
+                <input type="text" class="form-control" id="song6" placeholder="Song Name" name="song6" required/>
+                <input type="text" class="form-control" id="artist6" placeholder="Artist Name" name="artist6" required/>
+                <input type="text" class="form-control" id="song7" placeholder="Song Name" name="song7" required/>
+                <input type="text" class="form-control" id="artist7" placeholder="Artist Name" name="artist7" required/>
+                <input type="text" class="form-control" id="song8" placeholder="Song Name" name="song8" required/>
+                <input type="text" class="form-control" id="artist8" placeholder="Artist Name" name="artist8" required/>
+                <input type="text" class="form-control" id="song9" placeholder="Song Name" name="song9" required/>
+                <input type="text" class="form-control" id="artist9" placeholder="Artist Name" name="artist9" required/>
+                <input type="submit"> Submit </input>
             </form>
         </div>
         <div class="container">
             <h2 style="text-align: center">Table</h2>
-            <p style="text-align: center">Here's a table that will eventually be hooked up to a database:</p>                                      
+            <p style="text-align: center">Here's a table that's hooked up to a database:</p>                                      
             <div class="table-responsive">          
                 <table class="table">
                     <thead>
